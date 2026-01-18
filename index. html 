@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Viraj Papad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+    }
+
+    header {
+      background: #8b0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #b22222;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      border-radius: 10px;
+      max-width: 420px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .owner {
+      font-size: 18px;
+      color: #8b0000;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 18px;
+      color: #b22222;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Viraj Papad</h1>
+  <p>Pure • Tasty • Homemade Papad</p>
+  <div class="owner">Owner: Anusaya Ramchandra Chinchane</div>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Products</a>
+  <a href="#">Order</a>
+</nav>
+
+<section>
+  <div class="card">
+    <h2>Our Papad</h2>
+
+    <!-- Real Papad Photo -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Papadum.jpg" alt="Viraj Papad">
+
+    <p>Fresh, crispy, traditional homemade papad made with quality ingredients.</p>
+    
+    <!-- Papad Price -->
+    <div class="price">Price: 1 kg = ₹260</div>
+
+    <!-- WhatsApp Order Button -->
+    <a class="whatsapp-btn"
+       href="https://wa.me/918824981212?text=Hello%20I%20want%20to%20order%20Viraj%20Papad%201kg"
+       target="_blank">
+       Order on WhatsApp 💬
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Contact Details</h2>
+    <p><b>Owner:</b> Anusaya Ramchandra Chinchane</p>
+    <p><b>Address:</b> Rajegaon, Tq. Majalgaon</p>
+    <p><b>Phone:</b> 8824981212</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Viraj Papad | All Rights Reserved
+</footer>
+
+</body>
+</html>
